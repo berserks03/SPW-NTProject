@@ -1,0 +1,25 @@
+.footer {
+  background-color: #30333c;
+  margin-top: 2.625rem;
+
+  .wrapper {
+    display: table-cell;
+    
+    &:first-child {
+      padding-right: 10.8rem;
+    }
+
+    & div {
+      margin-bottom: 20px;
+    }
+  }
+
+  .right {
+    display: flex;
+    justify-content: flex-end;
+
+    & svg {
+      margin-right: 40px;
+    }
+  }
+}

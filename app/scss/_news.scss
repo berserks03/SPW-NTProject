@@ -1,0 +1,41 @@
+.news {
+
+  .news__cardWrapper {
+    align-content: center;
+    margin: 0 25px;
+    border: 1px solid #E9ECF7;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 10px #D9DBE2;
+    margin: 3.125rem;
+  
+    .news__card {
+      display:inline;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      color: white;
+      margin: 0 1.5rem 1.5rem 0;
+    
+      & div {
+        position: absolute;
+        bottom: 0.57rem;
+        left: 1rem;
+        max-width: 250px;
+        text-align: left;
+      }  
+    }
+  }
+  
+  .button {
+    display: block;
+    margin: auto;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    padding: 18px 26px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+  }
+}
+
+

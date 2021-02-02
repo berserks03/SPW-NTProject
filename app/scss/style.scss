@@ -1,0 +1,41 @@
+@import "variables";
+@import "mixins";
+@import "animations";
+
+@import "header";
+@import "globals";
+@import "hero";
+@import "table";
+@import "news";
+@import "contacts";
+@import "footer";
+
+/* montserrat-500 */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/montserrat-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/montserrat-500.woff') format('woff'), /* Modern Browsers */
+       url('fonts/montserrat-500.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+/* montserrat-600 */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/montserrat-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/montserrat-600.woff') format('woff'), /* Modern Browsers */
+       url('fonts/montserrat-600.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+/* quicksand-700 */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/quicksand-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/quicksand-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/quicksand-700.ttf') format('truetype'), /* Safari, Android, iOS */
+}
