@@ -1,1 +1,1 @@
-# Simple page
+# Single Page Website - NTproject
